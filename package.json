@@ -1,0 +1,23 @@
+{
+  "name": "fe-docs",
+  "version": "1.0.0",
+  "description": "'前端文档'",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easy-mj/fe-docs.git"
+  },
+  "author": "easy-mj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/easy-mj/fe-docs/issues"
+  },
+  "homepage": "https://github.com/easy-mj/fe-docs#readme",
+  "dependencies": {
+    "vuepress": "1.x"
+  }
+}
