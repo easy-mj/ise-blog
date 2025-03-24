@@ -1,3 +1,3 @@
 module.exports = {
-  base: '/fe-docs/'
+  base: '/ise-blog/'
 }
