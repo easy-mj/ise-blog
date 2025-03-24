@@ -5,6 +5,6 @@ module.exports = {
     "记录我在前端领域的深度探索，从攻克复杂技术难题，到钻研最新技术，分享成长路上的点滴心得与实战经验。",
   themeConfig: {
     logo: "/logo.svg",
-    nav: [{ text: "首页", link: "/home/" }],
+    nav: [{ text: "首页", link: "/index.md" }],
   },
 };
