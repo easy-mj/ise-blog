@@ -6,5 +6,29 @@ module.exports = {
   themeConfig: {
     logo: "/logo.svg",
     nav: [{ text: "首页", link: "/index.md" }],
+    repo: "easy-mj/ise-blog",
+    searchMaxSuggestions: 10,
+    docsDir: "docs",
+    footer: {
+      createYear: 2025,
+      copyrightInfo:
+        'MJ | <a href="https://github.com/easy-mj/ise-blog" target="_blank">github</a>',
+    },
+    extendFrontmatter: {
+      author: {
+        name: "MJ",
+        link: "https://github.com/easy-mj/ise-blog",
+      },
+    },
   },
+  head: [
+    ["link", { rel: "icon", href: "/logo.png" }],
+    [
+      "meta",
+      {
+        name: "keywords",
+        content: "前端成长路上的点滴心得与实战经验",
+      },
+    ],
+  ],
 };
