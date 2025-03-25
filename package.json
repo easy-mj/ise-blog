@@ -1,7 +1,7 @@
 {
-  "name": "fe-docs",
+  "name": "ise-blog",
   "version": "1.0.0",
-  "description": "'前端文档'",
+  "description": "'ISE前端博客'",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev docs",
@@ -11,18 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/easy-mj/fe-docs.git"
+    "url": "git+https://github.com/easy-mj/ise-blog.git"
   },
-  "author": "easy-mj",
+  "author": "MJ",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/easy-mj/fe-docs/issues"
+    "url": "https://github.com/easy-mj/ise-blog/issues"
   },
-  "homepage": "https://github.com/easy-mj/fe-docs#readme",
-  "dependencies": {
-    "vuepress": "1.x"
-  },
+  "homepage": "https://github.com/easy-mj/ise-blog#readme",
   "devDependencies": {
-    "vitepress": "^1.6.3"
+    "vitepress": "1.6.3"
   }
 }
