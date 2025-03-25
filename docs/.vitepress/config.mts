@@ -25,8 +25,8 @@ export default defineConfig({
           items: [
             { text: "前世今生", link: "/architecture/" },
             { text: "软件设计原则与分层", link: "/architecture/01" },
-            { text: "架构前期准备", link: "/architecture/02" },
-            { text: "如何保证架构的质量", link: "/architecture/03" },
+            { text: "架构设计的质量-健壮性和稳定性", link: "/architecture/02" },
+            { text: "架构前期准备", link: "/architecture/03" },
             { text: "技术填补与崩溃预防", link: "/architecture/04" },
             { text: "系统重构", link: "/architecture/05" },
           ],
