@@ -4,9 +4,10 @@
   "description": "'前端文档'",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "deploy": "bash deploy.sh docs",
+    "docs:preview": "vitepress preview docs"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "homepage": "https://github.com/easy-mj/fe-docs#readme",
   "dependencies": {
     "vuepress": "1.x"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
   }
 }

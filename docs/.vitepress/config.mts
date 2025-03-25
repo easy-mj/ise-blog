@@ -1,0 +1,48 @@
+import { defineConfig } from "vitepress";
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
+  base: "/ise-blog/",
+  title: "FE探索者: 在代码海洋中破浪前行",
+  description:
+    "记录我在前端领域的深度探索，从攻克复杂技术难题，到钻研最新技术，分享成长路上的点滴心得与实战经验。",
+  head: [["link", { rel: "icon", href: "/ise-blog/favicon.ico" }]],
+  themeConfig: {
+    logo: "/logo.svg",
+    // https://vitepress.dev/reference/default-theme-config
+    nav: [
+      { text: "Home", link: "/" },
+      {
+        text: "前端架构",
+        items: [{ text: "架构基础知识", link: "/architecture/" }],
+      },
+    ],
+
+    sidebar: {
+      "/architecture/": [
+        {
+          text: "架构基础知识",
+          items: [
+            { text: "前世今生", link: "/architecture/" },
+            { text: "软件设计原则与分层", link: "/architecture/01" },
+            { text: "架构前期准备", link: "/architecture/02" },
+            { text: "如何保证架构的质量", link: "/architecture/03" },
+            { text: "技术填补与崩溃预防", link: "/architecture/04" },
+            { text: "系统重构", link: "/architecture/05" },
+          ],
+        },
+      ],
+    },
+    search: {
+      provider: "local",
+    },
+    footer: {
+      message: "Released under the MIT License.",
+      copyright: "Copyright © 2025-present MJ",
+    },
+    socialLinks: [
+      { icon: "github", link: "https://github.com/easy-mj/ise-blog" },
+    ],
+  },
+  lastUpdated: true,
+});
