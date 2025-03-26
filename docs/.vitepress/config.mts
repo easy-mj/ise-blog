@@ -14,7 +14,10 @@ export default defineConfig({
       { text: "Home", link: "/" },
       {
         text: "前端架构",
-        items: [{ text: "架构基础知识", link: "/architecture/" }],
+        items: [
+          { text: "架构基础知识", link: "/architecture/" },
+          { text: "微前端", link: "/micro/" },
+        ],
       },
     ],
 
@@ -29,6 +32,15 @@ export default defineConfig({
             { text: "架构前期准备", link: "/architecture/03" },
             { text: "技术填补与崩溃预防", link: "/architecture/04" },
             { text: "系统重构", link: "/architecture/05" },
+          ],
+        },
+      ],
+      "/micro/": [
+        {
+          text: "微前端",
+          items: [
+            { text: "概览", link: "/micro/" },
+            { text: "自研框架", link: "/micro/01" },
           ],
         },
       ],
