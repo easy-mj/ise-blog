@@ -17,6 +17,7 @@ export default defineConfig({
         items: [
           { text: "HTML", link: "/html/" },
           { text: "CSS", link: "/css/" },
+          { text: "JS", link: "/js/" },
         ],
       },
       {
@@ -39,6 +40,12 @@ export default defineConfig({
         {
           text: "CSS",
           items: [{ text: "基础", link: "/css/" }],
+        },
+      ],
+      "/js/": [
+        {
+          text: "JS",
+          items: [{ text: "基础", link: "/js/" }],
         },
       ],
       "/architecture/": [
