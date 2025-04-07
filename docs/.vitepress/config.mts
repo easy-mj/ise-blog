@@ -13,6 +13,10 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       {
+        text: "前端基础",
+        items: [{ text: "HTML", link: "/html/" }],
+      },
+      {
         text: "前端架构",
         items: [
           { text: "架构基础知识", link: "/architecture/" },
@@ -22,6 +26,12 @@ export default defineConfig({
     ],
 
     sidebar: {
+      "/html/": [
+        {
+          text: "HTML",
+          items: [{ text: "基础", link: "/html/" }],
+        },
+      ],
       "/architecture/": [
         {
           text: "架构基础知识",
