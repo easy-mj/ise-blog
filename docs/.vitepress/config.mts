@@ -14,7 +14,10 @@ export default defineConfig({
       { text: "Home", link: "/" },
       {
         text: "前端基础",
-        items: [{ text: "HTML", link: "/html/" }],
+        items: [
+          { text: "HTML", link: "/html/" },
+          { text: "CSS", link: "/css/" },
+        ],
       },
       {
         text: "前端架构",
@@ -30,6 +33,12 @@ export default defineConfig({
         {
           text: "HTML",
           items: [{ text: "基础", link: "/html/" }],
+        },
+      ],
+      "/css/": [
+        {
+          text: "CSS",
+          items: [{ text: "基础", link: "/css/" }],
         },
       ],
       "/architecture/": [
