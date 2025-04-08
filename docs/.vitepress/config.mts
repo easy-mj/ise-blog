@@ -22,6 +22,10 @@ export default defineConfig({
         ],
       },
       {
+        text: "前端工程化",
+        items: [{ text: "Webpack", link: "/webpack/" }],
+      },
+      {
         text: "前端架构",
         items: [
           { text: "架构基础知识", link: "/architecture/" },
@@ -53,6 +57,12 @@ export default defineConfig({
         {
           text: "TS",
           items: [{ text: "基础", link: "/ts/" }],
+        },
+      ],
+      "/webpack/": [
+        {
+          text: "Webpack",
+          items: [{ text: "概览", link: "/webpack/" }],
         },
       ],
       "/architecture/": [
