@@ -119,6 +119,12 @@ export default defineConfig({
           ],
         },
       ],
+      "/project/": [
+        {
+          text: "项目",
+          items: [{ text: "概览", link: "/project/" }],
+        },
+      ],
     },
     search: {
       provider: "local",
