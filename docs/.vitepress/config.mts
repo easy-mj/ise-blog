@@ -30,7 +30,10 @@ export default defineConfig({
       },
       {
         text: "前端框架",
-        items: [{ text: "Vue", link: "/vue/" }],
+        items: [
+          { text: "Vue", link: "/vue/" },
+          { text: "React", link: "/react/" },
+        ],
       },
       {
         text: "前端架构",
@@ -82,6 +85,12 @@ export default defineConfig({
         {
           text: "Vue",
           items: [{ text: "概览", link: "/vue/" }],
+        },
+      ],
+      "/react/": [
+        {
+          text: "React",
+          items: [{ text: "概览", link: "/react/" }],
         },
       ],
       "/architecture/": [
