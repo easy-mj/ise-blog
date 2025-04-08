@@ -29,6 +29,10 @@ export default defineConfig({
         ],
       },
       {
+        text: "前端框架",
+        items: [{ text: "Vue", link: "/vue/" }],
+      },
+      {
         text: "前端架构",
         items: [
           { text: "架构基础知识", link: "/architecture/" },
@@ -72,6 +76,12 @@ export default defineConfig({
         {
           text: "Vite",
           items: [{ text: "概览", link: "/vite/" }],
+        },
+      ],
+      "/vue/": [
+        {
+          text: "Vue",
+          items: [{ text: "概览", link: "/vue/" }],
         },
       ],
       "/architecture/": [
