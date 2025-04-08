@@ -42,6 +42,10 @@ export default defineConfig({
           { text: "微前端", link: "/micro/" },
         ],
       },
+      {
+        text: "软技能",
+        items: [{ text: "项目", link: "/project/" }],
+      },
     ],
 
     sidebar: {
