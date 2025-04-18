@@ -82,7 +82,10 @@ export default defineConfig({
       "/vite/": [
         {
           text: "Vite",
-          items: [{ text: "概览", link: "/vite/" }],
+          items: [
+            { text: "概览", link: "/vite/" },
+            { text: "创建项目", link: "/vite/01" },
+          ],
         },
       ],
       "/vue/": [

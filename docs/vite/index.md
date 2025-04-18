@@ -1,19 +1,13 @@
 ---
-title: Vite
-categories:
-  - Vite
-tags:
-  - Vite
-author:
-  name: MJ
-  link: https://github.com/easy-mj/ise-blog
+layout: doc
 ---
+# Vite
 
-## Vite 介绍
+## 介绍
 
 [Vite](https://vite.dev/) 是一个超快的前端构建工具，赋能下一代 Web 应用的发展
 
-## Vite 的优势
+## 优势
 
 快
 
