@@ -125,7 +125,10 @@ export default defineConfig({
       "/project/": [
         {
           text: "项目",
-          items: [{ text: "概览", link: "/project/" }],
+          items: [
+            { text: "概览", link: "/project/" },
+            { text: "AI", link: "/project/ai" },
+          ],
         },
       ],
     },
