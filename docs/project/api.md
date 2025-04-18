@@ -26,4 +26,10 @@ layout: doc
 
 - 官网：[https://xinghuo.xfyun.cn/](https://xinghuo.xfyun.cn/)
 
-!['Tongyi'](/img/05-api-xinghuo.gif)
+!['xinghuo'](/img/05-api-xinghuo.gif)
+
+## 混元 腾讯
+
+- 官网：[https://hunyuan.tencent.com/](https://hunyuan.tencent.com/)
+
+!['hunyuan'](/img/05-api-hunyuan.gif)
