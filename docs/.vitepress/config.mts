@@ -58,7 +58,10 @@ export default defineConfig({
       "/css/": [
         {
           text: "CSS",
-          items: [{ text: "基础", link: "/css/" }],
+          items: [
+            { text: "概览", link: "/css/" },
+            { text: "框架", link: "/css/01" },
+          ],
         },
       ],
       "/js/": [
