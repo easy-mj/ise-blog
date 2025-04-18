@@ -133,6 +133,7 @@ export default defineConfig({
             { text: "AI", link: "/project/ai" },
             { text: "在线工具", link: "/project/tools" },
             { text: "开放平台", link: "/project/api" },
+            { text: "CDN", link: "/project/cdn" },
           ],
         },
       ],
