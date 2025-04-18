@@ -21,3 +21,9 @@ layout: doc
 - 官网：[https://tongyi.aliyun.com/](https://tongyi.aliyun.com/)
 
 !['Tongyi'](/img/05-api-tongyi.gif)
+
+## 星火 科大讯飞
+
+- 官网：[https://xinghuo.xfyun.cn/](https://xinghuo.xfyun.cn/)
+
+!['Tongyi'](/img/05-api-xinghuo.gif)
