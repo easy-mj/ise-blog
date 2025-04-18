@@ -14,4 +14,6 @@ Use it to quickly and easily load any file on npm using a URL like:
 https://unpkg.com/:package@:version/:file
 ```
 
+!['06-cdn-unpkg'](/img/06-cdn-unpkg.png)
+
 !['06-cdn-unpkg'](/img/06-cdn-unpkg.gif)
