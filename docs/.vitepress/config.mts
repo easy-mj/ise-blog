@@ -12,29 +12,29 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      {
-        text: "前端基础",
-        items: [
-          { text: "HTML", link: "/html/" },
-          { text: "CSS", link: "/css/" },
-          { text: "JS", link: "/js/" },
-          { text: "TS", link: "/ts/" },
-        ],
-      },
+      // {
+      //   text: "前端基础",
+      //   items: [
+      //     { text: "HTML", link: "/html/" },
+      //     { text: "CSS", link: "/css/" },
+      //     { text: "JS", link: "/js/" },
+      //     { text: "TS", link: "/ts/" },
+      //   ],
+      // },
       {
         text: "前端工程化",
         items: [
-          { text: "Webpack", link: "/webpack/" },
+          // { text: "Webpack", link: "/webpack/" },
           { text: "Vite", link: "/vite/" },
         ],
       },
-      {
-        text: "前端框架",
-        items: [
-          { text: "Vue", link: "/vue/" },
-          { text: "React", link: "/react/" },
-        ],
-      },
+      // {
+      //   text: "前端框架",
+      //   items: [
+      //     { text: "Vue", link: "/vue/" },
+      //     { text: "React", link: "/react/" },
+      //   ],
+      // },
       {
         text: "前端架构",
         items: [
