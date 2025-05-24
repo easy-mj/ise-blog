@@ -3,14 +3,14 @@
 layout: home
 
 hero:
-  name: "ISE前端博客"
-  tagline: 记录我在前端领域的深度探索，从攻克复杂技术难题，到钻研最新技术，分享成长路上的点滴心得与实战经验。
+  name: "前端象限"
+  tagline: 记录我在前端领域的不断探索，构建系统化的前端知识体系，涵盖从基础到高级的核心内容以及成长路上的点滴心得与实战经验。
   image:
     src: /logo.png
     alt: ISE Logo
   actions:
     - theme: brand
-      text: 架构基础知识
+      text: 基础知识
       link: /architecture/
     - theme: alt
       text: API Examples
