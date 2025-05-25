@@ -11,15 +11,30 @@ export default defineConfig({
     logo: "/logo.png",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
+      { text: "首页", link: "/" },
+      {
+        text: "前端基础",
+        items: [{ text: "JavaScript 基础", link: "/ibt/javascript/" }],
+      },
     ],
 
-    sidebar: {},
+    sidebar: {
+      // 前端基础 - JavaScript 基础
+      "/ibt/javascript/": [
+        {
+          text: "JavaScript 基础",
+          items: [
+            { text: "概览", link: "/ibt/javascript/" },
+            { text: "this指针/闭包/作用域", link: "/ibt/javascript/01" },
+          ],
+        },
+      ],
+    },
     search: {
       provider: "local",
     },
     footer: {
-      message: "Released under the MIT License.",
+      message: "种一棵树最好的时间是十年前，其次是现在。",
       copyright: "Copyright © 2025-present MJ",
     },
     socialLinks: [
