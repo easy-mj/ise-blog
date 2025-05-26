@@ -11,8 +11,8 @@ hero:
   actions:
     - theme: brand
       text: 基础知识
-      link: /architecture/
+      link: /ibt/javascript/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 知识框架
+      link: /knowledge-framework/
 ---
