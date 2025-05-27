@@ -1,6 +1,6 @@
 # 知识框架体系
 
-:heart_decoration: 前端基础
+:one: 前端基础
 - HTML
   - 语义化标签（header、section、article等）
   - 表单与输入（form、input、button等）
@@ -20,7 +20,7 @@
   - DOM 操作（事件委托、虚拟 DOM）
   - 浏览器 API（Fetch, WebSockets, LocalStorage）
 
-:heart_decoration: 前端工程化
+:two: 前端工程化
 - 版本控制
   - Git 基础（分支、合并、冲突解决）
   - Git 工作流（Git Flow, GitHub/GitLab）
@@ -36,7 +36,7 @@
   - CommonJS vs ES Modules
   - 动态导入（import()）
 
-:heart_decoration: 前端框架与库
+:three: 前端框架与库
 - Vue
   - 响应式原理（响应式数据）
   - 组合式 API（Composition API）
@@ -50,7 +50,7 @@
   - 路由（React Router）
   - 服务端渲染（Next.js）
 
-:heart_decoration: 浏览器原理
+:four: 浏览器原理
 - 渲染机制
   - 重绘（Repaint）与回流（Reflow）
   - 渲染流水线（DOM → Render Tree → Layout → Paint）
@@ -65,7 +65,7 @@
   - 代码分割（Code Splitting）
   - 缓存策略（HTTP 缓存, Service Worker）
 
-:heart_decoration: 网络与安全
+:five: 网络与安全
 - HTTP/HTTPS
   - 请求方法（GET, POST, PUT, DELETE）
   - 状态码（2xx, 3xx, 4xx, 5xx）
@@ -79,7 +79,7 @@
   - CORS（跨域资源共享）
   - 内容安全策略（CSP）
 
-:heart_decoration: 前端架构与设计模式
+:six: 前端架构与设计模式
 - 架构设计
   - 组件化开发
   - 微前端（qiankun, Module Federation）
@@ -91,7 +91,7 @@
   - Monorepo（Lerna, Turborepo）
   - CI/CD 流程
 
-:heart_decoration: 前沿技术探索
+:seven: 前沿技术探索
 - PWA（渐进式 Web 应用）
   - Service Worker
   - Web App Manifest
@@ -112,7 +112,7 @@
   - AI 辅助开发工具
   - 前端与机器学习的结合
 
-:heart_decoration: 项目实战与经验
+:eight: 项目实战与经验
 - 项目结构设计
   - 目录规范
   - 模块划分
@@ -134,7 +134,7 @@
   - 关注社区动态（GitHub, Twitter, 博客）
   - 参与开源项目
 
-:heart_decoration: 扩展领域
+:nine: 扩展领域
 - 移动端适配
   - 移动端屏幕适配方案（REM、VW/VH、媒体查询）
   - 移动端事件处理（touch 事件、300ms 延迟问题）
@@ -152,6 +152,6 @@
   - ECharts
   - Three.js（3D 可视化）
 
-:heart_decoration: 软技能与职业发展
+:keycap_ten: 软技能与职业发展
 - 开发规范
 - 职业成长
