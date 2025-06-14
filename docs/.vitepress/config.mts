@@ -27,6 +27,7 @@ export default defineConfig({
             { text: "概览", link: "/ibt/javascript/" },
             { text: "this指针/闭包/作用域", link: "/ibt/javascript/01" },
             { text: "面向对象编程/原型及原型链", link: "/ibt/javascript/02" },
+            { text: "前端异步编程规范", link: "/ibt/javascript/03" },
           ],
         },
       ],
